@@ -5,23 +5,30 @@ import Details from './details';
 
 const Home = () => {
   const data = useSelector((state) => state.data.data);
-  const [searchYear, setYear] = useState('');
+  const [getYear, setYear] = useState('');
 
   const handleEvent = (event) => setYear(event.currentTarget.value);
 
-  const searchResult = data.filter((item) => { /*eslint-disable-line*/
-    if (searchYear === '') {
+  const searchResult = data.filter((item) => {
+    if (getYear === '') {
       return item;
     }
-    if (item.year.includes(searchYear)) {
+    if (item.year.includes(getYear)) {
       return item;
     }
-  }).map((item) => (<Link id={item.period + item.year} key={item.year} to={`/details/${item.date}`}><Details year={item.year} date={item.date} /></Link>));
+
+    return item;
+  })
+    .map((item) => (
+      <Link id={item.period + item.year} key={item.year} to={`/details/${item.date}`}>
+        <Details year={item.year} date={item.date} />
+      </Link>
+    ));
 
   return (
-    <ul className="list-group">
+    <ul>
       <input onChange={handleEvent} type="search" placeholder="Search by year..." />
-      {searchResult}
+      {data && searchResult}
     </ul>
   );
 };

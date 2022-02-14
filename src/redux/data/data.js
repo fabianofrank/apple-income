@@ -9,7 +9,6 @@ export const fetchData = () => (dispatch) => {
       const {
         symbol, period, ebitda, incomeBeforeTax, revenue, date,
       } = data;
-      // const date = data.date;
       const year = data.calendarYear;
       const expenses = data.costAndExpenses;
       const link = data.finalLink;

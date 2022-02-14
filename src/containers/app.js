@@ -7,7 +7,7 @@ import {
 } from 'react-router-dom';
 import { fetchData } from '../redux/data/data';
 import Home from '../components/home';
-import Details from '../components/details';
+import Statements from '../components/statement';
 import Navbar from '../components/navbar';
 
 const App = () => {
@@ -23,8 +23,8 @@ const App = () => {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/details" element={<Details />}>
-            <Route path=":statementYear" element={<Details />} />
+          <Route path="/details" element={<Statements />}>
+            <Route path=":statementYear" element={<Statements />} />
           </Route>
         </Routes>
       </div>

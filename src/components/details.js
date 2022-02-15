@@ -8,9 +8,9 @@ const Details = (props) => {
   } = props;
 
   return (
-    <ul>
-      <li>{year}</li>
-      <li>{date}</li>
+    <ul className="details">
+      <li className="year">{year}</li>
+      <li className="date">{date}</li>
     </ul>
   );
 };

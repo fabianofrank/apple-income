@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  text-decoration: none;
+  color: white;
+  list-style-type: none;
+  font-family: 'Montserrat', sans-serif;
+  padding: 0;
+  overflow-x: hidden;
+  font-weight: bold;
+}
+
+html {
+  background-color: rgb(211, 81, 157);
+}
+
+h1 {
+  margin: 24px;
+}
+
+a:nth-child(1), a:nth-child(4), a:nth-child(5) {
+  align-self: stretch;
+  background-color: rgb(250, 93, 185);
+}
+
+
+
+nav {
+  background-color: rgb(250, 93, 185);
+  width: 100vw;
+  text-align: center;
+}
+
+body {
+  margin-top: 24px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background-color: rgb(255, 97, 255); */
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 24px;
+}
+
+.input {
+  padding: 24px;
+  min-width: 250px;
+  font-size: 18px;
+  border: 0px;
+  background-color: rgb(211, 81, 157);
+}
+
+.input:focus {
+  outline: none;
+}
+
+::placeholder {
+  color: white;
+  opacity: 1;
+}
+
+.years {
+  display: grid;
+  grid-template-columns: 200px 200px;
+  grid-template-rows: 200px 200px 200px; 
+}
+
+.year {
+  margin-top: 50px;
+  font-size: 48px;
+  font-weight: bolder;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+table {
+  width: 100vw;
+  table-layout: fixed;
+}
+
+tr:nth-child(odd) {
+  background-color: rgb(250, 93, 185);
+}
+
+tr:nth-child(even) {
+  background-color: rgb(211, 81, 157);
+}
+
+th, td {
+  padding: 12px;
+}
+
+.badge {
+  display: flex;
+  justify-content: center;
+  padding: 24px;
+}
+
+.badge-one, .badge-two {
+  background-color: rgb(255, 97, 202);
+  padding: 6px;
+  border-radius: 50px;
+  margin: 12px;
+  width: 108px;
+  text-align: center;
+}

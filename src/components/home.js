@@ -9,15 +9,13 @@ const Home = () => {
 
   const handleEvent = (event) => setYear(event.currentTarget.value);
 
-  const searchResult = data.filter((item) => {
+  const searchResult = data.filter((item) => { /*eslint-disable-line*/
     if (getYear === '') {
       return item;
     }
     if (item.year.includes(getYear)) {
       return item;
     }
-
-    return item;
   })
     .map((item) => (
       <Link id={item.period + item.year} key={item.year} to={`/details/${item.date}`}>
@@ -26,9 +24,11 @@ const Home = () => {
     ));
 
   return (
-    <ul>
-      <input onChange={handleEvent} type="search" placeholder="Search by year..." />
-      {data && searchResult}
+    <ul className="home">
+      <input className="input" onChange={handleEvent} type="search" placeholder="Search by year..." />
+      <div className="years">
+        {data && searchResult}
+      </div>
     </ul>
   );
 };

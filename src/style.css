@@ -13,19 +13,13 @@
 }
 
 html {
-  background-color: rgb(211, 81, 157);
-}
-
-h1 {
-  margin: 24px;
+  background-color: #d3519d;
 }
 
 a:nth-child(1), a:nth-child(4), a:nth-child(5) {
   align-self: stretch;
   background-color: rgb(250, 93, 185);
 }
-
-
 
 nav {
   background-color: rgb(250, 93, 185);
@@ -35,6 +29,31 @@ nav {
 
 body {
   margin-top: 24px;
+}
+
+.link {
+  display: flex;
+  align-items: baseline;
+  margin: 24px;
+}
+
+
+.header {
+  display: flex;
+  align-items: flex-end;
+  margin-right: auto;
+}
+
+.left {
+  margin-right: auto;
+  width: 24px;
+  height: 24px;
+}
+
+.apple {
+  width: 36px;
+  height: 36px;
+  margin-right: 12px;
 }
 
 .main {

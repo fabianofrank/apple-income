@@ -6,7 +6,7 @@
   text-decoration: none;
   color: white;
   list-style-type: none;
-  font-family: 'Montserrat', sans-serif;
+  font-family: Montserrat, sans-serif;
   padding: 0;
   overflow-x: hidden;
   font-weight: bold;
@@ -16,13 +16,15 @@ html {
   background-color: #d3519d;
 }
 
-a:nth-child(1), a:nth-child(4), a:nth-child(5) {
+a:nth-child(1),
+a:nth-child(4),
+a:nth-child(5) {
   align-self: stretch;
-  background-color: rgb(250, 93, 185);
+  background-color: rgb(250 93 185);
 }
 
 nav {
-  background-color: rgb(250, 93, 185);
+  background-color: rgb(250 93 185);
   width: 100vw;
   text-align: center;
 }
@@ -36,7 +38,6 @@ body {
   align-items: baseline;
   margin: 24px;
 }
-
 
 .header {
   display: flex;
@@ -60,6 +61,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+
   /* background-color: rgb(255, 97, 255); */
 }
 
@@ -74,8 +76,8 @@ body {
   padding: 24px;
   min-width: 250px;
   font-size: 18px;
-  border: 0px;
-  background-color: rgb(211, 81, 157);
+  border: 0;
+  background-color: rgb(211 81 157);
 }
 
 .input:focus {
@@ -90,7 +92,7 @@ body {
 .years {
   display: grid;
   grid-template-columns: 200px 200px;
-  grid-template-rows: 200px 200px 200px; 
+  grid-template-rows: 200px 200px 200px;
 }
 
 .year {
@@ -111,14 +113,15 @@ table {
 }
 
 tr:nth-child(odd) {
-  background-color: rgb(250, 93, 185);
+  background-color: rgb(250 93 185);
 }
 
 tr:nth-child(even) {
-  background-color: rgb(211, 81, 157);
+  background-color: rgb(211 81 157);
 }
 
-th, td {
+th,
+td {
   padding: 12px;
 }
 
@@ -128,8 +131,9 @@ th, td {
   padding: 24px;
 }
 
-.badge-one, .badge-two {
-  background-color: rgb(255, 97, 202);
+.badge-one,
+.badge-two {
+  background-color: rgb(255 97 202);
   padding: 6px;
   border-radius: 50px;
   margin: 12px;

@@ -11,6 +11,9 @@ The design was inspired by Nelson Sakwa's [design](https://www.behance.net/galle
 
 ![screenshot](./public/apple.png)![screenshot](./public/apple1.png)
 
+## Video Explanation
+
+[YouTube Link](https://youtu.be/p38tW-5i3-8)
 
 ## Built With
 

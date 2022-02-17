@@ -40,7 +40,7 @@ export const fetchData = () => (dispatch) => {
   });
 };
 
-const home = (state = { data: [] }, action) => {
+const data = (state = { data: [] }, action) => {
   switch (action.type) {
     case FETCH_DATA:
       return {
@@ -53,4 +53,4 @@ const home = (state = { data: [] }, action) => {
   }
 };
 
-export default home;
+export default data;

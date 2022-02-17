@@ -1,7 +1,11 @@
 # Apple Income Statements
 
-This is a project developed in React and Rudux, that uses the [Financial Modeling Prep API](https://site.financialmodelingprep.com/developer/docs) to create a single page application that display each statement of the last 5 years. The design was inspired by Nelson Sakwa's [design](https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs)).
+This is a project developed in React and Rudux, that uses the [Financial Modeling Prep API](https://site.financialmodelingprep.com/developer/docs) to create a single page application that display each Apple income statement of the last 5 years. 
 
+
+## Acknowledgements
+
+The design was inspired by Nelson Sakwa's [design](https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs)).
 
 ## Screenshot
 

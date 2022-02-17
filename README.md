@@ -11,8 +11,10 @@ The design was inspired by Nelson Sakwa's [design](https://www.behance.net/galle
 
 ![screenshot](./public/apple.png)![screenshot](./public/apple1.png)
 
-## Video Explanation
 
+## Live Demo & Video Explanation
+
+[Live Demo](https://apple-financial-statements.netlify.app/)
 [YouTube Link](https://youtu.be/p38tW-5i3-8)
 
 ## Built With
@@ -22,11 +24,8 @@ The design was inspired by Nelson Sakwa's [design](https://www.behance.net/galle
 - JavaScript
 - React
 - Redux
-
-## Live Demo
-
-[GitHub Link](https://fabianofrank.github.io/apple-income/)
-
+- Jest
+- Netlify
 
 ## Getting Started
 

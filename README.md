@@ -1,6 +1,6 @@
 # Apple Income Statements
 
-This is a project developed in React and Rudux, that uses the [Financial Modeling Prep API](https://site.financialmodelingprep.com/developer/docs) to create a single page application that display each Apple income statement of the last 5 years. 
+This is a project developed in React and Redux, that uses the [Financial Modeling Prep API](https://site.financialmodelingprep.com/developer/docs) to create a single page application that display each Apple income statement of the last 5 years. 
 
 
 ## Acknowledgements

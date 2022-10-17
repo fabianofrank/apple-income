@@ -15,8 +15,8 @@ The design was inspired by Nelson Sakwa's [design](https://www.behance.net/galle
 
 ## Live Demo & Video Explanation
 
-[Live Demo](https://apple-financial-statements.netlify.app/)
-[YouTube Link](https://youtu.be/p38tW-5i3-8)
+[Demo](https://apple-financial-statements.netlify.app/)
+
 
 ## Built With
 

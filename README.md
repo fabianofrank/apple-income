@@ -9,7 +9,8 @@ The design was inspired by Nelson Sakwa's [design](https://www.behance.net/galle
 
 ## Screenshot
 
-![screenshot](./public/apple.png)![screenshot](./public/apple1.png)
+![apple-home_mock-square](https://user-images.githubusercontent.com/68971295/196277931-c8e0a266-c22d-4d06-a562-4cab104f5cbe.png)
+![apple_detail_mock](https://user-images.githubusercontent.com/68971295/196280316-d8c19b93-6f45-4d5d-9182-50f8effce9ff.png)
 
 
 ## Live Demo & Video Explanation
